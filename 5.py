@@ -1,67 +1,51 @@
-# Operators in Python 
-# 1. Mathematical Operators 
-#  - a. Unary Operators 
-#  - b. Binary Operators 
+## Arithmetic Operators 
+# 1. Binary Operators 
+# *,/,-,+,//, ** 
 
-# 2. Logical Operators 
-  # AND , OR, NOT , Comparision Operators
-
-
-## Mathematical Operators
-# 1. + , - , / , *, (**), // (Integer division, floor division) (Binary Operators)
-# Addition Operators
-# print(2 + 3)
-# print(2.1 + 3.1)
-# print((1 + 3j + (2 + 4j)))
-# print("abc" + "def")
-
-# # Subtraction 
-# print(2 - 3)
-# print(2.1 - 3.1)
-
-# # Division 
-# print(2/3)
-# print(2//3)
-
-# #Multiplication
-# print(2*3)
-# print(2.1*3.1)
-# print("abc"*3)
-
-# Power operator 
+# a = 1.2 
+# b = 1.33
+# print(a + b)
+# print(a/b)
+# print(a - b)
+# print(a*b)
+# print(a//b)
+# print(a**b)  # a raised to power b 
 # print(2**3)
-# print(2.1**3)
+# print(a//b) # Integer division
 
-# 2. Shorthand Notation for Operators 
-# += , -= , *= , /=, //=2
+# a1 = "abc"
+# b1 = "def"
+# print(a1 + b1)
+# print(a1*3)
+# print(a1*3 + b1*3)
 
-# a = 2 
-# a += 2 
-# print(a)
-# a -= 2
-# print(a)
-# a +=2
-# a*= 2
-# print(a)
-# a/=3 
-# print(a)
-# a//= 2
-# print(a)
-
-# 3. Unary Operators (++, -- pre increment )
-# 4. Binary operations, |(OR) , &(AND) , ^(XOR), << (left shift), >> (right shift)
-
-print(bin(2))
-print(bin(3))
-print(bin(2 | 3))
-print(bin(2 ^ 3))
-print(bin(2 & 3)) 
-
-print( 2 << 3) # 2* (2**3)
-print( 16 >> 3) # 2/(2**3)
+# x = 2
+# x += 2 ## x = x + 2
+# print(x)
+# x = 2 
+# x-= 2
+# print(x)
+# x//=2
+# print(x)
+# x = 3 
+# x**=3
+# print(x)
 
 
+## Bitwise Operators 
+## 1. OR 
+## 2. XOR 
+## 3. AND 
+## 4. LEFT SHIFT 
+## 5. RIGHT SHIFT 
+## 6. Negation Operator 
 
 
-# Logical Operators 
-# 
+print(bin(2),bin(3))
+print(2^3, bin(2^3))
+print(2 | 3,bin(2|3))
+print(2 & 3, bin(2 & 3))
+
+print(9 >> 3,9 << 3)
+print(~9)
+
